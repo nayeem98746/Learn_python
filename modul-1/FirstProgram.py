@@ -82,3 +82,37 @@ elif(examMarks > 75):
     print("you are a madaerbord")
 else:
     print("You are a madafaker")
+
+
+x = int(input("x: "))
+g = (input("g: "))
+
+if ((x == 1 or x == 2) and g == "M"): 
+    print("free is 100")
+
+elif( a == 3 or a == 4 or g == "f"):
+    print("free is 200")
+
+elif( a == 5 or g == "f"):
+    print("free is 300")
+
+else:
+    print("free is 400")
+
+
+Ternary Opertor 
+
+food = input("enter you food ")
+
+eat = "yes" if food == "cake" else "no"
+
+print(eat)
+
+food = input("enter you food ")
+
+# print("sweet") if food == "cake" or food == "ice cream" else print("salty")
+
+string = "2"
+num = 3
+
+print(int(string) +  num)
