@@ -1,23 +1,23 @@
- stri1 = "this is \n a string"
- print(stri1)
+#  stri1 = "this is \n a string"
+#  print(stri1)
 
 
 strin = "this is a string"
 string = "this is a string"
-print(len(strin+string))
+# print(len(strin+string))
 
-print(strin[5:len(strin)])
+# print(strin[5:len(strin)])
 
-print(string.endswith("ing"))
-print(string.capitalize())
+# print(string.endswith("ing"))
+# print(string.capitalize())
 
-print(strin.replace("this" , "that"))
-print(strin.find("a"))
+# print(strin.replace("this" , "that"))
+# print(strin.find("a"))
 print(strin.count("a"))
 
-name = input("type you name")
+# name = input("type you name")
 
-print(len(name))
+# print(len(name))
 
 name = ""
 
