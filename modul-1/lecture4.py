@@ -31,3 +31,16 @@ while numind < len(num):
         break
 
     numind += 1
+
+
+    fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+
+
+for i in range(10 , 50 , 3): #reange (start, end, step)
+    if(i%2 == 0):
+         
+        print(i)
+
+
